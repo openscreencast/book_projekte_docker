@@ -1,0 +1,473 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Der erste Commit - Teil 2 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-jazer/regexp/regexp_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-jazer/questionjs/questionjs_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-jazer/question/question_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-jazer/fontawesome/css/font-awesome.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-quiz/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fbqx/fbqx.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="allgemeines_zum_branching.html" />
+    
+    
+    <link rel="prev" href="der_erste_commit.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Git für Einsteiger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="was_ist_git.html">
+            
+                <a href="was_ist_git.html">
+            
+                    
+                    Was ist git ?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="git_repository_anlegen.html">
+            
+                <a href="git_repository_anlegen.html">
+            
+                    
+                    Git-Repository anlegen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="den_ersten_commit_vorbereiten.html">
+            
+                <a href="den_ersten_commit_vorbereiten.html">
+            
+                    
+                    Den ersten Commit vorbereiten
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="der_erste_commit.html">
+            
+                <a href="der_erste_commit.html">
+            
+                    
+                    Der erste Commit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="der_erste_commit_teil2.html">
+            
+                <a href="der_erste_commit_teil2.html">
+            
+                    
+                    Der erste Commit - Teil 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="allgemeines_zum_branching.html">
+            
+                <a href="allgemeines_zum_branching.html">
+            
+                    
+                    Allgemeines zum Branching
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="branches_anlegen.html">
+            
+                <a href="branches_anlegen.html">
+            
+                    
+                    Branches anlegen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="branches_anlegen_teil2.html">
+            
+                <a href="branches_anlegen_teil2.html">
+            
+                    
+                    Branches anlegen - Teil 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="branches_mergen.html">
+            
+                <a href="branches_mergen.html">
+            
+                    
+                    Branches mergen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="merge_konflikte.html">
+            
+                <a href="merge_konflikte.html">
+            
+                    
+                    Merge-Konflikte
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="copyright.html">
+            
+                <a href="copyright.html">
+            
+                    
+                    Lizenz
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Der erste Commit - Teil 2</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="der-erste-commit---teil-2">Der erste Commit - Teil 2</h1>
+<iframe width="100%" height="430" src="https://www.youtube-nocookie.com/embed/9aUbuVohqaM?showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+<sec data-title="Links" data-id="links" data-show="true"><div class="panel panel-default"><div class="panel-heading"><b>Links<a class="pull-right section atTitle btn btn-default" target="links"><span class="fa fa-angle-up"></span></a></b></div><div class="panel-collapse in" id="links"><div class="panel-body">
+<ul>
+<li><a href="https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen" target="_blank">Git-Grundlagen</a></li>
+</ul>
+</div></div></div></sec>
+<sec data-title="Quiz" data-id="quiz" data-show="true" data-collapse="true"><div class="panel panel-default"><div class="panel-heading"><b>Quiz<a class="pull-right section atTitle btn btn-default" target="quiz"><span class="fa fa-angle-up"></span></a></b></div><div class="panel-collapse in" id="quiz"><div class="panel-body">
+<quiz name="">
+    <question>
+        <p>Wie kann man zur besseren &#xDC;bersicht die Farbausgabe in git aktivieren ?</p>
+        <answer>in der Datei .config die Zeile &quot;color true&quot; hinzuf&#xFC;gen</answer>
+        <answer>&quot;git commit -m color true&quot; ausf&#xFC;hren</answer>
+        <answer>mit dem Tool gitconfig im Reiter Theme color ausw&#xE4;hlen</answer>
+        <answer correct="">&quot;git config --global color.ui true&quot; ausf&#xFC;hren</answer>
+    </question>
+</quiz>
+
+<p><div class="fbqx"><div class="FBQbox gitQuestion" data-id="98f1e782d8e2827d2935088c7199bbf3d05865ef" data-answer="[[&quot;git diff&quot;]]"><p>Mit <div class="ans"><input type="text" class="form-control input-sm"></div> werden &#xC4;nderungen in den Dateien sichtbar, die seit dem letzten Commit passiert sind.</p><br><br><button class="btn btn-default btn-sm FBQsubmit">Submit</button><br><p class="alert alert-default FBQmessage">Correct.</p></div></div></p>
+</div></div></div></sec>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="der_erste_commit.html" class="navigation navigation-prev " aria-label="Previous page: Der erste Commit">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="allgemeines_zum_branching.html" class="navigation navigation-next " aria-label="Next page: Allgemeines zum Branching">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Der erste Commit - Teil 2","level":"1.6","depth":1,"next":{"title":"Allgemeines zum Branching","level":"1.7","depth":1,"path":"allgemeines_zum_branching.md","ref":"allgemeines_zum_branching.md","articles":[]},"previous":{"title":"Der erste Commit","level":"1.5","depth":1,"path":"der_erste_commit.md","ref":"der_erste_commit.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["jazer","quiz","fbqx","sectionx"],"pluginsConfig":{"fbqx":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{"editorAutoHeight":"solution"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{"tag":"b"},"highlight":{},"quiz":{"labels":{"check":"Antwort kontrollieren","showExplanation":"Hinweis","showCorrect":"korrekte Antwort","explanationHeader":"Hinweis"},"text":{"noChosen":"Choose at least one answer","incomplete":"Some correct answers are missing"},"buttons":{"showCorrect":true,"showExplanation":true}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"der_erste_commit_teil2.md","mtime":"2017-09-25T21:18:25.512Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-04T17:32:57.871Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-jazer/questionjs/questionjs.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-jazer/question/question.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-jazer/regexp/regexp.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-jazer/xregexp/xregexp.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-jazer/ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-jazer/ace/theme-dreamweaver.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-quiz/script.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fbqx/fbqx.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
